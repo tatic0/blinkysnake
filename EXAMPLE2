@@ -1,0 +1,9 @@
+import blinkysnake
+
+a = blinkysnake.ifaceinfo('enp0s25')
+print(a)
+#>>> {'Receive': {'bytes': '1420127440', 'frame': '0', 'drop': '0', 'packets': '1237856', 'fifo': '0', 'multicast': '458621', 'compressed': '0', 'errs': '0'}, 'Transmit': {'bytes': '43179598', 'drop': '0', 'packets': '364101', 'fifo': '0', 'carrier': '0', 'colls': '0', 'compressed': '0', 'errs': '0'}}
+
+print(a['Receive'])
+#>>>{'bytes': '1420127440', 'frame': '0', 'drop': '0', 'packets': '1237856', 'fifo': '0', 'multicast': '458621', 'compressed': '0', 'errs': '0'}
+
