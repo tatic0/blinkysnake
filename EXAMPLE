@@ -1,0 +1,7 @@
+# Rename this file as example.py
+
+import blinkysnake
+b = blinkysnake.listifaces()
+print(b)
+
+# >>> ['wlp3s0', 'wwp0s20u4i6', 'enp0s25', 'lo']
